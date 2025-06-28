@@ -89,8 +89,7 @@ def main(stdscr):
         row = next(r for r in rows if r[0] == name)  # name, unit, v1, v2, status
         no_value = (
             GAME == 1 and row[2] is None or
-            GAME == 2 and (row[2] is None or row[3] is None)
-        )
+            GAME == 2 and row[2] is None )
         if no_value:
             flash(stdscr, pr_row + 1, "No value yet!")
             buf = ""; continue
