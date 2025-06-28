@@ -1,0 +1,62 @@
+# ───────── General ─────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ───────── Python / PEP-517 ─────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+*.coverage
+.mypy_cache/
+.pytest_cache/
+.coverage.*
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Wheels / archives
+*.whl
+*.tar.gz
+*.zip
+
+# ───────── Config / secrets ─────────
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# ───────── Database / runtime ─────────
+*.sqlite3
+*.db
+*.pid
+*.sock
+*.log
+
+# ───────── Docker ─────────
+docker-compose.*.yml
+*/docker-data/
+
+# ───────── VSCode test coverage plug-in ─────────
+htmlcov/
+
+# ───────── Jupyter (if any) ─────────
+.ipynb_checkpoints/
+
+# ───────── Mac/Linux dumps ─────────
+core.*
